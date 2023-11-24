@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "dev_mod:sapphire"
+          "name": "advanced_refinery:sapphire"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "dev_mod:blocks/sapphire_ore"
+  "random_sequence": "advanced_refinery:blocks/sapphire_ore"
 }

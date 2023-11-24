@@ -8,10 +8,10 @@
   ],
   "key": {
     "X": {
-      "item": "dev_mod:sapphire"
+      "item": "advanced_refinery:sapphire"
     }
   },
   "result": {
-    "item": "dev_mod:sapphire_block"
+    "item": "advanced_refinery:sapphire_block"
   }
 }

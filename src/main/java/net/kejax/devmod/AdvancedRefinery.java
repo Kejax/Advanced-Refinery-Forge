@@ -20,16 +20,16 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
-@Mod(DevMod.MOD_ID)
-public class DevMod {
+@Mod(AdvancedRefinery.MOD_ID)
+public class AdvancedRefinery {
 
     // Define mod id in a common place for everything to reference
-    public static final String MOD_ID = "dev_mod";
+    public static final String MOD_ID = "advanced_refinery";
     // Directly reference a slf4j logger
     private static final Logger LOGGER = LogUtils.getLogger();
     // Create a Deferred Register to hold Blocks which will all be registered under the "dev_mod" namespace
 
-    public DevMod() {
+    public AdvancedRefinery() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModCreativeModeTabs.register(modEventBus);

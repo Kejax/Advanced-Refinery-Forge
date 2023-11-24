@@ -7,5 +7,8 @@
   "item.advanced_refinery.ruby": "Ruby",
   "block.advanced_refinery.ruby_ore": "Ruby Ore",
 
-  "creativetab.main_tab": "Test Tab"
+  "item.advanced_refinery.metal_detector": "Metal Detector",
+  "item.advanced_refinery.metal_detector.lore": "Click on a block to check if valuable ores are under it",
+
+  "creativetab.advanced_refinery.main": "Advanced Refinery"
 }

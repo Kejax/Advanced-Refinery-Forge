@@ -3,11 +3,11 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "dev_mod:sapphire_block"
+      "item": "advanced_refinery:sapphire_block"
     }
   ],
   "result": {
-    "item": "dev_mod:sapphire",
+    "item": "advanced_refinery:sapphire",
     "count": 9
   }
 }
