@@ -1,7 +1,7 @@
-package net.kejax.devmod.item;
+package net.kejax.advanced_refinery.item;
 
-import net.kejax.devmod.AdvancedRefinery;
-import net.kejax.devmod.item.custom.MetalDetectorItem;
+import net.kejax.advanced_refinery.AdvancedRefinery;
+import net.kejax.advanced_refinery.item.custom.MetalDetectorItem;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;

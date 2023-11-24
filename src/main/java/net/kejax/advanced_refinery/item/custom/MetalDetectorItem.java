@@ -1,6 +1,6 @@
-package net.kejax.devmod.item.custom;
+package net.kejax.advanced_refinery.item.custom;
 
-import net.kejax.devmod.block.ModBlocks;
+import net.kejax.advanced_refinery.block.ModBlocks;
 import net.minecraft.client.resources.language.I18n;
 import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.Component;

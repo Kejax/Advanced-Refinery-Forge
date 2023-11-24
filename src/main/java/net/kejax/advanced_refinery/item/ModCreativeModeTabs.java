@@ -1,7 +1,7 @@
-package net.kejax.devmod.item;
+package net.kejax.advanced_refinery.item;
 
-import net.kejax.devmod.AdvancedRefinery;
-import net.kejax.devmod.block.ModBlocks;
+import net.kejax.advanced_refinery.AdvancedRefinery;
+import net.kejax.advanced_refinery.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;

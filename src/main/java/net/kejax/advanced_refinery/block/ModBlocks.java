@@ -1,7 +1,7 @@
-package net.kejax.devmod.block;
+package net.kejax.advanced_refinery.block;
 
-import net.kejax.devmod.AdvancedRefinery;
-import net.kejax.devmod.item.ModItems;
+import net.kejax.advanced_refinery.AdvancedRefinery;
+import net.kejax.advanced_refinery.item.ModItems;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;

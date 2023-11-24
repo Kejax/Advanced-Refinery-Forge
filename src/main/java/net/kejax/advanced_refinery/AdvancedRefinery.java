@@ -1,9 +1,9 @@
-package net.kejax.devmod;
+package net.kejax.advanced_refinery;
 
 import com.mojang.logging.LogUtils;
-import net.kejax.devmod.block.ModBlocks;
-import net.kejax.devmod.item.ModCreativeModeTabs;
-import net.kejax.devmod.item.ModItems;
+import net.kejax.advanced_refinery.block.ModBlocks;
+import net.kejax.advanced_refinery.item.ModCreativeModeTabs;
+import net.kejax.advanced_refinery.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
