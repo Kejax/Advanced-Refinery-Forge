@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "XXX",
+    "XXX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "dev_mod:sapphire"
+    }
+  },
+  "result": {
+    "item": "dev_mod:sapphire_block"
+  }
+}

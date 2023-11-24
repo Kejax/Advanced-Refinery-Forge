@@ -1,0 +1,11 @@
+{
+  "item.advanced_refinery.sapphire": "Sapphire",
+  "item.advanced_refinery.sapphire_sword": "Sapphire Sword",
+  "block.advanced_refinery.sapphire_ore": "Sapphire Ore",
+  "block.advanced_refinery.sapphire_block": "Block of Sapphire",
+
+  "item.advanced_refinery.ruby": "Ruby",
+  "block.advanced_refinery.ruby_ore": "Ruby Ore",
+
+  "creativetab.main_tab": "Test Tab"
+}
