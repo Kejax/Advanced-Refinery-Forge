@@ -1,6 +1,7 @@
 package net.kejax.advanced_refinery.item.custom;
 
 import net.kejax.advanced_refinery.block.ModBlocks;
+import net.kejax.advanced_refinery.util.ModTags;
 import net.minecraft.client.resources.language.I18n;
 import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.Component;
@@ -14,6 +15,7 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.BlockState;
+import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
@@ -54,7 +56,7 @@ public class MetalDetectorItem extends Item {
     }
 
     @Override
-    public void appendHoverText(ItemStack pStack, @Nullable Level pLevel, List<Component> pTooltipComponents, TooltipFlag pIsAdvanced) {
+    public void appendHoverText(@NotNull ItemStack pStack, @Nullable Level pLevel, List<Component> pTooltipComponents, @NotNull TooltipFlag pIsAdvanced) {
         pTooltipComponents.add(Component.translatable("item.advanced_refinery.metal_detector.lore"));
         super.appendHoverText(pStack, pLevel, pTooltipComponents, pIsAdvanced);
     }
@@ -64,6 +66,6 @@ public class MetalDetectorItem extends Item {
     }
 
     private boolean isValuableBlock(BlockState state) {
-        return state.is(ModBlocks.SAPPHIRE_ORE.get()) || state.is(Blocks.DIAMOND_ORE) || state.is(Blocks.IRON_ORE) || state.is(Blocks.REDSTONE_ORE) || state.is(Blocks.GOLD_ORE);
+        return state.is(ModTags.Blocks.IS_VALUABLE_ORE);
     }
 }
