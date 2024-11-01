@@ -1,0 +1,12 @@
+{
+  "type": "advanced_refinery:gem_polishing",
+  "input": [
+    {
+      "item": "minecraft:coal"
+    }
+  ],
+  "output": {
+    "Count": 3,
+    "id": "advanced_refinery:sapphire"
+  }
+}

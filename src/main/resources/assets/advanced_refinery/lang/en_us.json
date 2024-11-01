@@ -1,6 +1,12 @@
 {
   "item.advanced_refinery.sapphire": "Sapphire",
   "item.advanced_refinery.sapphire_sword": "Sapphire Sword",
+  "item.advanced_refinery.sapphire_axe": "Sapphire Axe",
+  "item.advanced_refinery.sapphire_helmet": "Sapphire Helmet",
+  "item.advanced_refinery.sapphire_chestplate": "Sapphire Chestplate",
+  "item.advanced_refinery.sapphire_leggings": "Sapphire Leggings",
+  "item.advanced_refinery.sapphire_boots": "Sapphire Boots",
+
   "block.advanced_refinery.sapphire_ore": "Sapphire Ore",
   "block.advanced_refinery.sapphire_block": "Block of Sapphire",
 
@@ -8,7 +14,9 @@
   "block.advanced_refinery.ruby_ore": "Ruby Ore",
 
   "item.advanced_refinery.metal_detector": "Metal Detector",
-  "item.advanced_refinery.metal_detector.lore": "Click on a block to check if valuable ores are under it",
+  "item.advanced_refinery.metal_detector.tooltip": "Click on a block to check if valuable ores are under it",
+
+  "block.advanced_refinery.gem_polishing_station": "Gem Polishing Station",
 
   "creativetab.advanced_refinery.main": "Advanced Refinery"
 }

@@ -1,0 +1,4 @@
+// 1.20.2	2024-06-24T09:12:33.0990718	Tags for minecraft:block mod id advanced_refinery
+5f4217a943a290a808a2edd2e58857929051564e data/advanced_refinery/tags/blocks/is_valuable_ore.json
+0019da0c4011d67c856fa7a648c64d9fee4bf8f5 data/minecraft/tags/blocks/mineable/pickaxe.json
+24e26861b0ddb3fa7f9959b7b13b43be175ee1cd data/minecraft/tags/blocks/needs_iron_tool.json

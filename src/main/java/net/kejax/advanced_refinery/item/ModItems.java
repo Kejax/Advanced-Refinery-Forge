@@ -1,6 +1,7 @@
 package net.kejax.advanced_refinery.item;
 
 import net.kejax.advanced_refinery.AdvancedRefinery;
+import net.kejax.advanced_refinery.item.custom.FuelItem;
 import net.kejax.advanced_refinery.item.custom.MetalDetectorItem;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -18,7 +19,22 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> SAPPHIRE_SWORD = ITEMS.register("sapphire_sword",
-            () -> new SwordItem(ModToolTiers.SAPPHIRE, 4, -2.4f, new Item.Properties().durability(2048)));
+            () -> new SwordItem(ModToolTiers.SAPPHIRE, 4, -2.4f, new Item.Properties()));
+
+    public static final RegistryObject<Item> SAPPHIRE_AXE = ITEMS.register("sapphire_axe",
+            () -> new AxeItem(ModToolTiers.SAPPHIRE, 5.0F, -3.0F, new Item.Properties()));
+
+    public static final RegistryObject<Item> SAPPHIRE_HELMET = ITEMS.register("sapphire_helmet",
+            () -> new ArmorItem(ModArmorMaterials.SAPPHIRE, ArmorItem.Type.HELMET, new Item.Properties()));
+
+    public static final RegistryObject<Item> SAPPHIRE_CHESTPLATE = ITEMS.register("sapphire_chestplate",
+            () -> new ArmorItem(ModArmorMaterials.SAPPHIRE, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+
+    public static final RegistryObject<Item> SAPPHIRE_LEGGINGS = ITEMS.register("sapphire_leggings",
+            () -> new ArmorItem(ModArmorMaterials.SAPPHIRE, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+
+    public static final RegistryObject<Item> SAPPHIRE_BOOTS = ITEMS.register("sapphire_boots",
+            () -> new ArmorItem(ModArmorMaterials.SAPPHIRE, ArmorItem.Type.BOOTS, new Item.Properties()));
 
 
     // --- Ruby Items ---
@@ -44,6 +60,18 @@ public class ModItems {
     public static final RegistryObject<Item> METAL_DETECTOR = ITEMS.register("metal_detector",
             () -> new MetalDetectorItem(new Item.Properties().durability(100)));
 
+    // --- Foods ---
+    public static final RegistryObject<Item> STRAWBERRY = ITEMS.register("strawberry",
+            () -> new Item(new Item.Properties().food(ModFoods.STRAWBERRY)));
+
+    // --- Misc ---
+    public static final RegistryObject<Item> HAMMER = ITEMS.register("hammer",
+            () -> new Item(new Item.Properties().durability(512)));
+
+    public static final RegistryObject<Item> PINE_CONE = ITEMS.register("pine_cone",
+            () -> new FuelItem(new Item.Properties(), 100));
+
+    // --- Helper Methods ---
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }

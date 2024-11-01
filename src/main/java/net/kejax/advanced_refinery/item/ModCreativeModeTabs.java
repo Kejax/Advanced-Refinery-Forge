@@ -20,12 +20,38 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativetab.advanced_refinery.main"))
                     .icon(() -> new ItemStack(ModItems.SAPPHIRE.get()))
                     .displayItems((pParameters, pOutput) -> {
+
+                        // Sapphire Items
                         pOutput.accept(ModItems.SAPPHIRE.get());
                         pOutput.accept(ModItems.SAPPHIRE_SWORD.get());
+                        pOutput.accept(ModItems.SAPPHIRE_HELMET.get());
+                        pOutput.accept(ModItems.SAPPHIRE_CHESTPLATE.get());
+                        pOutput.accept(ModItems.SAPPHIRE_LEGGINGS.get());
+                        pOutput.accept(ModItems.SAPPHIRE_BOOTS.get());
+
+                        // Ruby Items
+                        pOutput.accept(ModItems.RUBY.get());
+
+                        // Ores and Mineral Blocks
                         pOutput.accept(ModBlocks.SAPPHIRE_ORE.get());
                         pOutput.accept(ModBlocks.SAPPHIRE_BLOCK.get());
-                        pOutput.accept(ModItems.RUBY.get());
+
+                        // Useful Blocks
+                        pOutput.accept(ModBlocks.SOUND_BLOCK.get());
+
+                        // Food
+                        pOutput.accept(ModItems.STRAWBERRY.get());
+
+                        // Misc
+                        pOutput.accept(ModItems.HAMMER.get());
+                        pOutput.accept(ModItems.PINE_CONE.get());
+
+                        // Machines
+                        pOutput.accept(ModBlocks.GEM_POLISHING_STATION.get());
+
+                        // Creative Items / Blocks
                         pOutput.accept(ModItems.METAL_DETECTOR.get());
+
                     })
                     .build()
     );

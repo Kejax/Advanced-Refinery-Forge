@@ -23,7 +23,7 @@ public class ModPlacedFeatures {
         HolderGetter<ConfiguredFeature<?, ?>> configuredFeatures = context.lookup(Registries.CONFIGURED_FEATURE);
 
         register(context, SAPPIRE_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeature.OVERWORLD_SAPPHIRE_ORE_KEY),
-                ModOrePlacement.commonOrePlacement(5, HeightRangePlacement.uniform(VerticalAnchor.absolute(10), VerticalAnchor.absolute(50))));
+                ModOrePlacement.rareOrePlacement(5, HeightRangePlacement.uniform(VerticalAnchor.absolute(10), VerticalAnchor.absolute(50))));
     }
 
     public static ResourceKey<PlacedFeature> registerKey(String name) {

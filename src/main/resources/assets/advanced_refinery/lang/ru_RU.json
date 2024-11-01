@@ -1,0 +1,11 @@
+{
+  "item.advanced_refinery.sapphire": "Сапфир",
+  "item.advanced_refinery.sapphire_sword": "Сапфировый меч",
+  "block.advanced_refinery.sapphire_ore": "Сапфировая руда",
+  "block.advanced_refinery.sapphire_block": "Сапфировый блок",
+  "item.advanced_refinery.ruby": "Рубин",
+  "block.advanced_refinery.ruby_ore": "Рубиновая руда",
+  "item.advanced_refinery.metal_detector": "Металлоискатель",
+  "item.advanced_refinery.metal_detector.lore": "Нажмите на блок, чтобы проверить, находятся ли под ним ценные руды",
+  "creativetab.advanced_refinery.main": "Продвинутая переработка"
+}

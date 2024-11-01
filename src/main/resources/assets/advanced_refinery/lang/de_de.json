@@ -1,6 +1,12 @@
 {
   "item.advanced_refinery.sapphire": "Saphir",
   "item.advanced_refinery.sapphire_sword": "Saphirschwert",
+  "item.advanced_refinery.sapphire_axe": "Saphiraxt",
+  "item.advanced_refinery.sapphire_helmet": "Saphirhelm",
+  "item.advanced_refinery.sapphire_chestplate": "Saphirharnisch",
+  "item.advanced_refinery.sapphire_leggings": "Saphirbeinschutz",
+  "item.advanced_refinery.sapphire_boots": "Saphirstiefel",
+
   "block.advanced_refinery.sapphire_ore": "Saphirerz",
   "block.advanced_refinery.sapphire_block": "Saphir Block",
 
@@ -8,7 +14,7 @@
   "block.advanced_refinery.ruby_ore": "Rubinerz",
 
   "item.advanced_refinery.metal_detector": "Metall Detektor",
-  "item.advanced_refinery.metal_detector.lore": "Klicke auf einen Block nach wertvollen Erzen darunter zu suchen",
+  "item.advanced_refinery.metal_detector.tooltip": "Klicke auf einen Block nach wertvollen Erzen darunter zu suchen",
 
   "creativetab.advanced_refinery.main": "Advanced Refinery"
 }

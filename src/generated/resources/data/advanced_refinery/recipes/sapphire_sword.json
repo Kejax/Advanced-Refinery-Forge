@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "advanced_refinery:sapphire"
+    },
+    "|": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "#",
+    "#",
+    "|"
+  ],
+  "result": {
+    "item": "advanced_refinery:sapphire_sword"
+  },
+  "show_notification": true
+}

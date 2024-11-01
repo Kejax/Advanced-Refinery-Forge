@@ -2,8 +2,13 @@ package net.kejax.advanced_refinery;
 
 import com.mojang.logging.LogUtils;
 import net.kejax.advanced_refinery.block.ModBlocks;
+import net.kejax.advanced_refinery.block.entity.ModBlockEntities;
 import net.kejax.advanced_refinery.item.ModCreativeModeTabs;
 import net.kejax.advanced_refinery.item.ModItems;
+import net.kejax.advanced_refinery.recipe.ModRecipes;
+import net.kejax.advanced_refinery.screen.GemPolishingStationScreen;
+import net.kejax.advanced_refinery.screen.ModMenuTypes;
+import net.minecraft.client.gui.screens.MenuScreens;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -36,6 +41,11 @@ public class AdvancedRefinery {
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+
+        ModBlockEntities.register(modEventBus);
+        ModMenuTypes.register(modEventBus);
+
+        ModRecipes.register(modEventBus);
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
@@ -74,7 +84,7 @@ public class AdvancedRefinery {
 
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
-
+            MenuScreens.register(ModMenuTypes.GEM_POLISHING_MENU.get(), GemPolishingStationScreen::new);
         }
     }
 }

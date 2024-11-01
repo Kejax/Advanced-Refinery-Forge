@@ -57,7 +57,7 @@ public class MetalDetectorItem extends Item {
 
     @Override
     public void appendHoverText(@NotNull ItemStack pStack, @Nullable Level pLevel, List<Component> pTooltipComponents, @NotNull TooltipFlag pIsAdvanced) {
-        pTooltipComponents.add(Component.translatable("item.advanced_refinery.metal_detector.lore"));
+        pTooltipComponents.add(Component.translatable("item.advanced_refinery.metal_detector.tooltip"));
         super.appendHoverText(pStack, pLevel, pTooltipComponents, pIsAdvanced);
     }
 
