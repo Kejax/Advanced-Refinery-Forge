@@ -38,6 +38,7 @@ public class ModCreativeModeTabs {
 
                         // Useful Blocks
                         pOutput.accept(ModBlocks.SOUND_BLOCK.get());
+                        pOutput.accept(ModBlocks.WITHER_PROOF_BLOCK.get());
 
                         // Food
                         pOutput.accept(ModItems.STRAWBERRY.get());
