@@ -37,8 +37,8 @@ public class ModBlocks {
             () -> new SoundBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
 
     // -- Protecting Blocks --
-    public static final RegistryObject<Block> WITHER_PROOF_BLOCK = registerBlock("wither_proof_item",
-            () -> new WitherOnlyProofBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound()))
+    public static final RegistryObject<Block> WITHER_PROOF_BLOCK = registerBlock("wither_proof_block",
+            () -> new WitherOnlyProofBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.STONE)));
 
     // Block Entities
     public static final RegistryObject<Block> GEM_POLISHING_STATION = registerBlock("gem_polishing_station",

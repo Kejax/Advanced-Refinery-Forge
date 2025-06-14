@@ -13,6 +13,8 @@
   "item.advanced_refinery.ruby": "Ruby",
   "block.advanced_refinery.ruby_ore": "Ruby Ore",
 
+  "block.advanced_refinery.wither_proof_block": "Wither Proof Block",
+
   "item.advanced_refinery.metal_detector": "Metal Detector",
   "item.advanced_refinery.metal_detector.tooltip": "Click on a block to check if valuable ores are under it",
 

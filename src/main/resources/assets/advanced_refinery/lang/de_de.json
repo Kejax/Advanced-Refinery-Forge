@@ -13,6 +13,8 @@
   "item.advanced_refinery.ruby": "Rubin",
   "block.advanced_refinery.ruby_ore": "Rubinerz",
 
+  "block.advanced_refinery.wither_proof_block": "Wither geschützter Block",
+
   "item.advanced_refinery.metal_detector": "Metall Detektor",
   "item.advanced_refinery.metal_detector.tooltip": "Klicke auf einen Block nach wertvollen Erzen darunter zu suchen",
 
